@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Lilita+One&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/IMG/codeStationlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Codestation</title>
+</head>
+
+
+<body>
+
+
+    <header id="nav">
+
+
+        <div class="navbtns">
+            <button id="nav-btn" onclick="openNav()">=</button>
+            <button id="nav-cls" onclick="closeNav()">x</button>
+        </div>
+
+
+
+        <div id="side-logo">
+            <div class="logo-img"><img src="IMG/codestationtext.png" alt=""></div>
+        </div>
+
+        <div id="navbar">
+            <ul>
+                <!-- <li><a href="https://drive.google.com/drive/folders/1d4-IfyZh-ZA6Gyf1y6zhz9cyMVJIUfbr?usp=share_link">HOME</a></li> -->
+                <li><a href="https://pastebin.com/8vgrVULn">OUR SERVICES</a></li>
+                <!-- <li><a href="#blog">BLOG</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">CONTACT US</a></li> -->
+            </ul>
+        </div>
+
+        <div id="btn-nav">
+            <ul>
+                <!-- <li><a onclick="closenavbar()" href="">HOME</a></li> -->
+                <li><a href="https://pastebin.com/8vgrVULn" onclick="closenavbar()" id="ser-href">OUR SERVICES</a></li>
+                <!-- <li><a onclick="closenavbar()" href="#blog">BLOG</a></li>
+                <li><a onclick="closenavbar()" href="#about">ABOUT</a></li>
+                <li><a onclick="closenavbar()" id="con-href">CONTACT US</a></li> -->
+            </ul>
+        </div>
+
+
+
+    </header>
+    <div id="scroll-indicator-container">
+        <div class="scroll-indicator-bar"></div>
+    </div>
+
+
+    <section id="home">
+        <div class="text">
+            <p id="weltxt">welcome to,</p>
+            <h1 id="bigtxt">CODE
+                <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/qkmmvfdj.json" trigger="loop"
+                    colors="primary:#4be1ec,secondary:#cb5eee" stroke="90" style="width:120px;height:110px">
+                </lord-icon>
+            </h1>
+            <h1 id="bigtxt">STATION
+                </lord-icon>
+            </h1>
+        </div>
+    </section>
+
+
+
+    <!--image slider start-->
+    <!-- <div id="slider">
+        <div id="slides">
+
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <div class="slide first">
+                <img src="IMG/2.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="IMG/4.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="IMG/3.jpg" alt="">
+            </div>
+            <div class="slide">
+                <img src="IMG/1.jpg" alt="">
+            </div> -->
+            <!--slide images end-->
+            <!--automatic navigation start-->
+            <!-- <div id="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div> -->
+            <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <!-- <div id="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div> -->
+        <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+
+
+
+
+<!-- 
+
+
+
+    <div id="services-text">
+        <h1 id="section-heading">OUR SERVICES</h1>
+        <div id="services-logo">
+            <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/twprnhsj.json" trigger="loop" delay="500"
+                colors="primary:#4be1ec,secondary:#cb5eee" stroke="85" style="width:150px;height:150px">
+            </lord-icon>
+        </div>
+        <div id="res-services-logo">
+            <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+            <lord-icon src="https://cdn.lordicon.com/twprnhsj.json" trigger="loop" delay="500"
+                colors="primary:#4be1ec,secondary:#cb5eee" stroke="85" style="width:100px;height:100px">
+            </lord-icon>
+        </div>
+        <hr>
+    </div>
+    <section id="services">
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>Service Heading</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                        consequatur necessitatibus eaque.
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-brush"></i>
+                    </div>
+                    <h3>Service Heading</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                        consequatur necessitatibus eaque.
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3>Service Heading</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                        consequatur necessitatibus eaque.
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-truck-pickup"></i>
+                    </div>
+                    <h3>Service Heading</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                        consequatur necessitatibus eaque.
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-broom"></i>
+                    </div>
+                    <h3>Service Heading</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                        consequatur necessitatibus eaque.
+                    </p>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="icon-wrapper">
+                        <i class="fas fa-plug"></i>
+                    </div>
+                    <h3>Service Heading</h3>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+                        consequatur necessitatibus eaque.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="pad-side-foot">
+            <div id="contact-logo">
+                <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/mjmrmyzg.json" trigger="loop" delay="500"
+                    colors="primary:#4be1ec,secondary:#cb5eee" stroke="80" style="width:150px;height:150px">
+                </lord-icon>
+            </div>
+            <div id="block">
+
+            </div>
+            <h1 id="contact-txt">CONTACT US
+            </h1>
+            <li id="res-contact-logo">
+                <script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+                <lord-icon src="https://cdn.lordicon.com/mjmrmyzg.json" trigger="loop" delay="500"
+                    colors="primary:#4be1ec,secondary:#cb5eee" stroke="80" style="width:100px;height:100px">
+                </lord-icon>
+            </li>
+            <hr>
+            <div id="foot-links">
+                <ul>
+                    <li><a href="https://www.instagram.com/mihir_980/">
+                            <script
+                                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_5jrklsmp.json"
+                                background="transparent" speed="0.5" style="width: 100px; height: 100px;" loop autoplay>
+                            </lottie-player>
+                        </a></li>
+                    <li><a href="https://www.linkedin.com/in/hassan-s-9698ba238/">
+                            <script
+                                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_iou79yni.json"
+                                background="transparent" speed="0.2" style="width: 60px; height: 60px;" loop autoplay>
+                            </lottie-player>
+                        </a></li>
+                    <li><a href="https://t.me/Hassan920">
+                            <script
+                                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_bvriqbvf.json"
+                                background="transparent" speed="0.5" style="width: 100px; height: 100px;" loop autoplay>
+                            </lottie-player>
+                        </a></li>
+                    <li><a href="https://github.com/hassan-980">
+                            <script
+                                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_kq6zs04j.json"
+                                background="transparent" speed="0.2" style="width: 100px; height: 93px;" loop autoplay>
+                            </lottie-player>
+                        </a></li>
+                    <li><a href="mailto:hassansuhail760@gmail.com">
+                            <script
+                                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ebqz3ltq.json"
+                                background="transparent" speed="1" style="width: 120px; height: 120px;" loop autoplay>
+                            </lottie-player>
+                        </a></li>
+
+                    <li><a href="https://wa.me/919675359132">
+                            <script
+                                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_ojrgjebz.json"
+                                background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay>
+                            </lottie-player>
+                        </a></li>
+                </ul>
+            </div>
+
+
+
+
+            <div id="res-foot-links">
+                <ul>
+                    <li><a href="https://www.instagram.com/mihir_980/">
+                            <script
+                                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_5jrklsmp.json"
+                                background="transparent" speed="0.5" style="width: 50px; height: 50px;" loop autoplay>
+                            </lottie-player>
+                        </a></li>
+                    <li><a href="https://www.linkedin.com/in/hassan-s-9698ba238/">
+                            <script
+                                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_iou79yni.json"
+                                background="transparent" speed="0.2" style="width: 35px; height: 35px;" loop autoplay>
+                            </lottie-player>
+                        </a></li>
+                    <li><a href="https://t.me/Hassan920">
+                            <script
+                                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_bvriqbvf.json"
+                                background="transparent" speed="0.5" style="width: 50px; height: 50px;" loop autoplay>
+                            </lottie-player>
+                        </a></li>
+
+                </ul>
+                <ul>
+                    <li><a href="https://github.com/hassan-980">
+                            <script
+                                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_kq6zs04j.json"
+                                background="transparent" speed="0.2" style="width: 100px; height: 50px;" loop autoplay>
+                            </lottie-player>
+                        </a></li>
+                    <li><a href="mailto:hassansuhail760@gmail.com">
+                            <script
+                                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ebqz3ltq.json"
+                                background="transparent" speed="1" style="width: 120px; height: 80px;" loop autoplay>
+                            </lottie-player>
+                        </a></li>
+
+                    <li><a href="https://wa.me/919675359132">
+                            <script
+                                src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                            <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_ojrgjebz.json"
+                                background="transparent" speed="1" style="width: 100px; height: 75px;" loop autoplay>
+                            </lottie-player>
+                        </a></li>
+                </ul>
+            </div>
+            <div id="foot-text">
+                <p>mail - contact@codestation.tech</p>
+             
+                <p>contact no.- +91 9675359132</p>
+                <p>Delhi, Dwarka</p>
+            </div> 
+            <div id="footlogo">
+                <p>@CODESTATION❤️ 2022</p>
+            </div>
+
+        </div>
+    </footer>-->
+
+    <script src="script.js"></script>
+    <!-- <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+          document.getElementById('radio' + counter).checked = true;
+          counter++;
+          if(counter > 4){
+            counter = 1;
+          }
+        }, 5000);
+        </script> -->
+</body>
+
+</html>
