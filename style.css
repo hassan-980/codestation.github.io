@@ -46,7 +46,7 @@ html {
     margin: auto;
     text-decoration: none;
     color: white;
-    font-size: 19px;
+    font-size: 17px;
     font-family: 'IBM Plex Mono', monospace;
 
 }
@@ -56,7 +56,7 @@ html {
     color: white;
     text-decoration-color: darkorchid;
     text-decoration-thickness: 3px;
-    font-size: 22px;
+    /* font-size: 18px; */
 }
 
 
@@ -577,7 +577,7 @@ hr {
 }
 
 /*======= Scroll indicator bar =======*/
-#scroll-indicator-container {
+/* #scroll-indicator-container {
     width: 100%;
     height: 5px;
     position: sticky;
@@ -593,7 +593,7 @@ hr {
     height: 100%;
     box-shadow: 0 5px 25px #199fff,
         0 5px 50px #199fff;
-}
+} */
 
 
 
