@@ -1,6 +1,6 @@
 function openNav() {
     document.getElementById("nav").style.transition = "all 0.5s ease-out" ;
-    document.getElementById("nav").style.height = "275px";
+    document.getElementById("nav").style.height = "220px";
     document.getElementById("nav-btn").style.display = "none";
     document.getElementById("nav-cls").style.display = "block";
     document.getElementById("btn-nav").style.display = "block";

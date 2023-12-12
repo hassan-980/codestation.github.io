@@ -666,7 +666,7 @@ hr {
     #nav-btn {
         display: block;
         font-size: 40px;
-        color: white;
+        color: rgb(255, 255, 255);
         background: transparent;
         padding: 6px 15px;
 
@@ -677,8 +677,8 @@ hr {
         font-size: 40px;
         color: white;
         background: transparent;
-        padding: 0px 15px;
-        padding-bottom: 5px;
+        padding: 4px 15px;
+        /* padding-bottom: 0px; */
 
     }
 
