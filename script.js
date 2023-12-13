@@ -8,11 +8,12 @@ function openNav() {
 
 
 function closeNav() {
-    document.getElementById("nav").style.transition = "none" ;
+    
     document.getElementById("nav").style.height = "50px";
     document.getElementById("nav-btn").style.display = "block";
     document.getElementById("nav-cls").style.display = "none";
     document.getElementById("btn-nav").style.display = "none";
+    document.getElementById("nav").style.transition = "all 0.3s ease-in" ;
 }
 
 function closenavbar(){
